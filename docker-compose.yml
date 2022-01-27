@@ -1,0 +1,15 @@
+services:
+  elasticsearch:
+    image: elasticsearch:7.16.3
+    container_name: elasticsearch-node01
+    environment:
+      - node.name=node01
+      - discovery.type=single-node
+    ports:
+      - 9200:9200
+    networks:
+      - es-network
+
+networks:
+  es-network:
+    driver: bridge
