@@ -10,6 +10,18 @@ services:
     networks:
       - es-network
 
+  kibana:
+    image: kibana:7.16.3
+    container_name: kibana
+    environment:
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+    ports:
+      - 5601:5601
+    networks:
+      - es-network
+    depends_on:
+      - elasticsearch
+
 networks:
   es-network:
     driver: bridge
