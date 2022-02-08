@@ -4,14 +4,19 @@ filebeat.inputs:
     paths:
       - /var/logs/kodi/*.log
 
-setup.template:
+setup.template: # https://www.elastic.co/guide/en/beats/filebeat/current/configuration-template.html
   enabled: true
   name: "kodi"
   pattern: "kodi-*"
-  overwrite: true
+  overwrite: false
 
 setup.kibana:
   host: "192.168.178.47:5601"
 
+setup.ilm: # https://www.elastic.co/guide/en/beats/filebeat/current/ilm.html
+  enabled: false
+  rollover_alias: "kodi"
+
 output.elasticsearch:
   hosts: "${ELASTICSEARCH_HOSTS:192.168.178.47:9200}"
+  index: "kodi-%{+yyyy.MM.dd}" # https://www.elastic.co/guide/en/beats/filebeat/current/elasticsearch-output.html#_escape_html

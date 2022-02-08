@@ -35,7 +35,6 @@ services:
       - es-network
     volumes:
       - ./filebeat.docker.yml:/usr/share/filebeat/filebeat.yml:rw
-      - ./filebeat.template.json:/usr/share/filebeat/filebeat.template.json:ro
       - log-files:/var/logs/kodi:ro
     depends_on:
       - elasticsearch
