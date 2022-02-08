@@ -1,7 +1,7 @@
 services:
   elasticsearch:
     image: elasticsearch:7.16.3
-    container_name: elasticsearch-node01
+    container_name: elasticsearch
     environment:
       - node.name=node01
       - discovery.type=single-node
@@ -21,6 +21,33 @@ services:
       - es-network
     depends_on:
       - elasticsearch
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:7.16.3
+    container_name: filebeat
+    command: -e --strict.perms=false # allows filebeat the read the filebeat.yml file
+    environment:
+      - SETUP_KIBANA_HOST=kibana:5601
+      - OUTPUT_ELASTIC_HOSTS=["http://elasticsearch:9200"]
+    ports:
+      - 8080:80
+    networks:
+      - es-network
+    volumes:
+      - ./filebeat.docker.yml:/usr/share/filebeat/filebeat.yml:rw
+      - ./filebeat.template.json:/usr/share/filebeat/filebeat.template.json:ro
+      - log-files:/var/logs/kodi:ro
+    depends_on:
+      - elasticsearch
+      - kibana
+
+volumes:
+  log-files:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: ./kodi-logs/
 
 networks:
   es-network:

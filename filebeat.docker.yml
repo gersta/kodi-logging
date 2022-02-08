@@ -1,0 +1,17 @@
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - /var/logs/kodi/*.log
+
+setup.template:
+  enabled: true
+  name: "kodi"
+  pattern: "kodi-*"
+  overwrite: true
+
+setup.kibana:
+  host: "192.168.178.47:5601"
+
+output.elasticsearch:
+  hosts: "${ELASTICSEARCH_HOSTS:192.168.178.47:9200}"

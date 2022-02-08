@@ -1,0 +1,1 @@
+udo docker run docker.elastic.co/beats/filebeat:7.16.3 setup -E setup.kibana.host=192.168.178.47:5601 -E output.elasticsearch.hosts=["192.168.178.47:9200"]

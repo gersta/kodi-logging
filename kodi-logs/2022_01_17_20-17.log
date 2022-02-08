@@ -1,0 +1,285 @@
+﻿2019-04-11 16:28:41.200 T:1937408576  NOTICE: -----------------------------------------------------------------------
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: Starting Kodi (18.9 (18.9.0) Git:newclock5_18.9-Leia). Platform: Linux ARM 32-bit
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: Using Release Kodi x32 build (version for Raspberry Pi)
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: Kodi compiled 2021-07-06 by GCC 8.3.0 for Linux ARM 32-bit version 4.19.127 (267135)
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: Running on LibreELEC (official): 9.2.8, kernel: Linux ARM 32-bit version 4.19.127
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: FFmpeg version/source: 4.0.4-Kodi
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: Host CPU: ARMv7 Processor rev 4 (v7l), 4 cores available
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: ARM Features: Neon enabled
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: special://xbmc/ is mapped to: /usr/share/kodi/
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: special://xbmcbin/ is mapped to: /usr/lib/kodi
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: special://xbmcbinaddons/ is mapped to: /usr/lib/kodi/addons
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: special://masterprofile/ is mapped to: /storage/.kodi/userdata
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: special://envhome/ is mapped to: /storage
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: special://home/ is mapped to: /storage/.kodi
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: special://temp/ is mapped to: /storage/.kodi/temp
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: special://logpath/ is mapped to: /storage/.kodi/temp
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: The executable running is: /usr/lib/kodi/kodi.bin
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: Local hostname: Libresta
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: Log File is located: /storage/.kodi/temp/kodi.log
+2019-04-11 16:28:41.201 T:1937408576  NOTICE: -----------------------------------------------------------------------
+2019-04-11 16:28:41.215 T:1937408576    INFO: loading settings
+2019-04-11 16:28:41.220 T:1937408576  NOTICE: special://profile/ is mapped to: special://masterprofile/
+2019-04-11 16:28:41.253 T:1937408576   DEBUG: CSkinSettings: no <skinsettings> tag found
+2019-04-11 16:28:41.254 T:1937408576  NOTICE: Loaded settings file from special://xbmc/system/advancedsettings.xml
+2019-04-11 16:28:41.255 T:1937408576  NOTICE: Contents of special://xbmc/system/advancedsettings.xml are...
+                                            <?xml version="1.0" encoding="utf-8" ?>
+                                            <advancedsettings>
+                                              <cputempcommand>/usr/bin/cputemp</cputempcommand>
+                                              <gputempcommand>/usr/bin/gputemp</gputempcommand>
+                                              <showexitbutton>false</showexitbutton>
+                                              <remotedelay>1</remotedelay>
+                                              <samba>
+                                                <clienttimeout>30</clienttimeout>
+                                              </samba>
+                                              <fanartres>720</fanartres>
+                                              <imageres>540</imageres>
+                                            </advancedsettings>
+2019-04-11 16:28:41.255 T:1937408576 WARNING: CSettingsManager: missing version attribute
+2019-04-11 16:28:41.256 T:1937408576  NOTICE: No settings file to load (special://masterprofile/advancedsettings.xml)
+2019-04-11 16:28:41.256 T:1937408576  NOTICE: Default Video Player: VideoPlayer
+2019-04-11 16:28:41.256 T:1937408576  NOTICE: Default Audio Player: paplayer
+2019-04-11 16:28:41.256 T:1937408576  NOTICE: Disabled debug logging due to GUI setting. Level 0.
+2019-04-11 16:28:41.256 T:1937408576  NOTICE: Log level changed to "LOG_LEVEL_NORMAL"
+2019-04-11 16:28:41.257 T:1937408576  NOTICE: CMediaSourceSettings: loading media sources from special://masterprofile/sources.xml
+2019-04-11 16:28:41.435 T:1937408576  NOTICE: PulseAudio: Server found running - will try to use Pulse
+2019-04-11 16:28:41.536 T:1937408576  NOTICE: Running database version Addons27
+2019-04-11 16:28:41.834 T:1937408576  NOTICE: ADDON: audioencoder.kodi.builtin.aac v1.0.0 installed
+2019-04-11 16:28:41.834 T:1937408576  NOTICE: ADDON: audioencoder.kodi.builtin.wma v1.0.0 installed
+2019-04-11 16:28:41.834 T:1937408576  NOTICE: ADDON: driver.dvb.crazycat v9.2.0.0 installed
+2019-04-11 16:28:41.834 T:1937408576  NOTICE: ADDON: driver.dvb.dvb-latest v9.2.0.0 installed
+2019-04-11 16:28:41.834 T:1937408576  NOTICE: ADDON: game.controller.default v1.0.19 installed
+2019-04-11 16:28:41.834 T:1937408576  NOTICE: ADDON: game.controller.snes v1.0.18 installed
+2019-04-11 16:28:41.834 T:1937408576  NOTICE: ADDON: kodi.binary.global.audioengine v1.0.1 installed
+2019-04-11 16:28:41.834 T:1937408576  NOTICE: ADDON: kodi.binary.global.filesystem v1.0.2 installed
+2019-04-11 16:28:41.834 T:1937408576  NOTICE: ADDON: kodi.binary.global.general v1.0.3 installed
+2019-04-11 16:28:41.834 T:1937408576  NOTICE: ADDON: kodi.binary.global.gui v5.12.0 installed
+2019-04-11 16:28:41.834 T:1937408576  NOTICE: ADDON: kodi.binary.global.main v1.0.14 installed
+2019-04-11 16:28:41.834 T:1937408576  NOTICE: ADDON: kodi.binary.global.network v1.0.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: kodi.binary.instance.audiodecoder v2.0.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: kodi.binary.instance.audioencoder v2.0.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: kodi.binary.instance.game v1.1.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: kodi.binary.instance.imagedecoder v2.0.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: kodi.binary.instance.inputstream v2.0.8 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: kodi.binary.instance.peripheral v1.3.7 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: kodi.binary.instance.pvr v5.10.3 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: kodi.binary.instance.screensaver v2.0.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: kodi.binary.instance.vfs v2.0.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: kodi.binary.instance.videocodec v1.0.1 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: kodi.binary.instance.visualization v2.0.1 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: kodi.resource v1.0.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: metadata.album.universal v3.1.6 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: metadata.artists.universal v4.3.6 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: metadata.common.allmusic.com v3.2.2 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: metadata.common.fanart.tv v3.6.3 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: metadata.common.imdb.com v3.2.4 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: metadata.common.musicbrainz.org v2.2.4 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: metadata.common.theaudiodb.com v2.0.3 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: metadata.common.themoviedb.org v3.2.17 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: metadata.local v1.0.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: metadata.themoviedb.org v5.2.6 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: metadata.tvshows.themoviedb.org v3.5.13 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: os.libreelec.tv v9.2 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: os.openelec.tv v9.2 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: peripheral.joystick v1.4.9 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: plugin.video.zdf_de_lite v4.0.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: repository.kodi.game v1.0.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: repository.libreelec.tv v9.2.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: repository.xbmc.org v3.1.6 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: resource.images.weathericons.default v1.1.8 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: resource.language.en_gb v2.0.1 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: resource.uisounds.kodi v1.0.0 installed
+2019-04-11 16:28:41.835 T:1937408576  NOTICE: ADDON: screensaver.xbmc.builtin.black v1.0.33 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: screensaver.xbmc.builtin.dim v1.0.59 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: script.module.libmediathek3 v1.5.0 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: script.module.libzdf v2.1.7 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: script.module.pil v1.1.7 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: script.module.pycryptodome v3.4.3 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: script.program.driverselect v0.1.6 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: service.libreelec.settings v9.0.0 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: skin.estuary v2.0.27 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: webinterface.default v18.x-2.4.6 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: xbmc.addon v18.9 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: xbmc.core v0.1.0 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: xbmc.gui v5.14.0 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: xbmc.json v10.3.0 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: xbmc.metadata v2.1.0 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: xbmc.python v2.26.0 installed
+2019-04-11 16:28:41.836 T:1937408576  NOTICE: ADDON: xbmc.webinterface v1.0.0 installed
+2019-04-11 16:28:41.885 T:1937408576   ERROR: DBus error: org.freedesktop.DBus.Error.ServiceUnknown - The name org.freedesktop.UPower was not provided by any .service files
+2019-04-11 16:28:41.925 T:1914643328 WARNING: Pulseaudio module module-allow-passthrough not loaded - opening PT devices might fail
+2019-04-11 16:28:41.926 T:1914643328  NOTICE: Found 2 Lists of Devices
+2019-04-11 16:28:41.926 T:1914643328  NOTICE: Enumerated PI devices:
+2019-04-11 16:28:41.926 T:1914643328  NOTICE:     Device 1
+2019-04-11 16:28:41.926 T:1914643328  NOTICE:         m_deviceName      : HDMI
+2019-04-11 16:28:41.926 T:1914643328  NOTICE:         m_displayName     : HDMI
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_displayNameExtra:
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_deviceType      : AE_DEVTYPE_HDMI
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_channels        : FL, FR
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_sampleRates     : 8000,11025,16000,22050,24000,32000,44100,48000,88200,96000,176400,192000
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32NE,AE_FMT_S16NE,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP,AE_FMT_RAW
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_streamTypes     : STREAM_TYPE_AC3,STREAM_TYPE_EAC3,STREAM_TYPE_DTSHD_CORE,STREAM_TYPE_DTS_2048,STREAM_TYPE_DTS_1024,STREAM_TYPE_DTS_512
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:     Device 2
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_deviceName      : Analogue
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_displayName     : Analogue
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_displayNameExtra:
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_channels        : FL, FR
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_sampleRates     : 48000
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_streamTypes     : No passthrough capabilities
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:     Device 3
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_deviceName      : Both
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_displayName     : HDMI and Analogue
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_displayNameExtra:
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_channels        : FL, FR
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_sampleRates     : 48000
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_streamTypes     : No passthrough capabilities
+2019-04-11 16:28:41.927 T:1914643328  NOTICE: Enumerated PULSE devices:
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:     Device 1
+2019-04-11 16:28:41.927 T:1914643328  NOTICE:         m_deviceName      : Default
+2019-04-11 16:28:41.928 T:1914643328  NOTICE:         m_displayName     : Default
+2019-04-11 16:28:41.928 T:1914643328  NOTICE:         m_displayNameExtra: Bluetooth Audio (PULSEAUDIO)
+2019-04-11 16:28:41.928 T:1914643328  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+2019-04-11 16:28:41.928 T:1914643328  NOTICE:         m_channels        : FL, FR
+2019-04-11 16:28:41.928 T:1914643328  NOTICE:         m_sampleRates     : 5512,8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000,384000
+2019-04-11 16:28:41.928 T:1914643328  NOTICE:         m_dataFormats     : AE_FMT_U8,AE_FMT_S16NE,AE_FMT_S24NE3,AE_FMT_S24NE4,AE_FMT_S32NE,AE_FMT_FLOAT
+2019-04-11 16:28:41.928 T:1914643328  NOTICE:         m_streamTypes     : No passthrough capabilities
+2019-04-11 16:28:41.990 T:1937408576  NOTICE: Raspberry PI firmware version: Apr 15 2020 11:44:24 
+                                            Copyright (c) 2012 Broadcom
+                                            version 82f9bb929ce2186eb1824178c1ae82902ad6275c (clean) (release) (start_x)
+2019-04-11 16:28:41.990 T:1937408576  NOTICE: ARM mem: 768MB GPU mem: 256MB MPG2:0 WVC1:0
+2019-04-11 16:28:41.990 T:1937408576  NOTICE: cache.memorysize: 20MB
+2019-04-11 16:28:41.991 T:1937408576  NOTICE: Config:
+                                            aphy_params_current=819
+                                            arm_freq=1400
+                                            audio_pwm_mode=514
+                                            config_hdmi_boost=5
+                                            core_freq=400
+                                            desired_osc_freq=0x331df0
+                                            desired_osc_freq_boost=0x3c45b0
+                                            disable_commandline_tags=2
+                                            disable_l2cache=1
+                                            display_hdmi_rotate=-1
+                                            display_lcd_rotate=-1
+                                            dphy_params_current=547
+                                            force_eeprom_read=1
+                                            force_pwm_open=1
+                                            framebuffer_ignore_alpha=1
+                                            framebuffer_swap=1
+                                            gpu_freq=300
+                                            hdmi_channel_map=8
+                                            init_uart_clock=0x2dc6c00
+                                            lcd_framerate=60
+                                            over_voltage_avs=62500
+                                            over_voltage_avs_boost=0x2932e
+                                            pause_burst_frames=1
+                                            program_serial_random=1
+                                            sdram_freq=450
+                                            hdmi_force_cec_address:0=65535
+                                            hdmi_force_cec_address:1=65535
+                                            hdmi_ignore_cec_init:0=1
+                                            hdmi_pixel_freq_limit:0=0x9a7ec80
+                                            hdmi_pixel_freq_limit:1=0x9a7ec80
+2019-04-11 16:28:41.991 T:1937408576  NOTICE: Config:
+                                            device_tree=-
+                                            overlay_prefix=overlays/
+                                            hdmi_cvt:0=
+                                            hdmi_cvt:1=
+                                            hdmi_edid_filename:0=
+                                            hdmi_edid_filename:1=
+                                            hdmi_timings:0=
+                                            hdmi_timings:1=
+2019-04-11 16:28:41.992 T:1937408576  NOTICE: Found resolution 640 x 480 with 640 x 480 @ 60.000000 Hz
+2019-04-11 16:28:41.992 T:1937408576  NOTICE: Found resolution 640 x 480 with 640 x 480 @ 59.940063 Hz
+2019-04-11 16:28:41.992 T:1937408576  NOTICE: Found resolution 800 x 600 with 800 x 600 @ 60.000000 Hz
+2019-04-11 16:28:41.992 T:1937408576  NOTICE: Found resolution 800 x 600 with 800 x 600 @ 59.940063 Hz
+2019-04-11 16:28:41.992 T:1937408576  NOTICE: Found resolution 1024 x 768 with 1024 x 768 @ 60.000000 Hz
+2019-04-11 16:28:41.992 T:1937408576  NOTICE: Found resolution 1024 x 768 with 1024 x 768 @ 59.940063 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1280 x 1024 with 1280 x 1024 @ 60.000000 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1280 x 1024 with 1280 x 1024 @ 59.940063 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1440 x 900 with 1440 x 900 @ 60.000000 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1440 x 900 with 1440 x 900 @ 59.940063 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1680 x 1050 with 1680 x 1050 @ 60.000000 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1680 x 1050 with 1680 x 1050 @ 59.940063 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1920 x 1080 with 1920 x 1080 @ 60.000000 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1920 x 1080 with 1920 x 1080 @ 59.940063 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1600 x 900 with 1600 x 900 @ 60.000000 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1600 x 900 with 1600 x 900 @ 59.940063 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 720 x 480 with 720 x 480 @ 60.000000 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 720 x 480 with 720 x 480 @ 59.940063 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1280 x 720 with 1280 x 720 @ 60.000000 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1280 x 720 with 1280 x 720 @ 59.940063 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 720 x 576 with 720 x 576 @ 50.000000 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1280 x 720 with 1280 x 720 @ 50.000000 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found resolution 1920 x 1080 with 1920 x 1080 @ 50.000000 Hz
+2019-04-11 16:28:41.993 T:1937408576  NOTICE: Found (1920x1080@60.000000) at 28, setting to RES_DESKTOP at 16
+2019-04-11 16:28:41.994 T:1937408576  NOTICE: EGL_VERSION = 1.4
+2019-04-11 16:28:41.994 T:1937408576  NOTICE: EGL_VENDOR = Broadcom
+2019-04-11 16:28:41.994 T:1937408576  NOTICE: EGL_EXTENSIONS = EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_vg_parent_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_lock_surface
+2019-04-11 16:28:41.994 T:1937408576  NOTICE: EGL_CLIENT_EXTENSIONS = NULL
+2019-04-11 16:28:41.995 T:1937408576  NOTICE: Checking resolution 16
+2019-04-11 16:28:42.293 T:1937408576  NOTICE: GL_VENDOR = Broadcom
+2019-04-11 16:28:42.293 T:1937408576  NOTICE: GL_RENDERER = VideoCore IV HW
+2019-04-11 16:28:42.293 T:1937408576  NOTICE: GL_VERSION = OpenGL ES 2.0
+2019-04-11 16:28:42.293 T:1937408576  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 1.00
+2019-04-11 16:28:42.293 T:1937408576  NOTICE: GL_EXTENSIONS = GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_paletted_texture GL_OES_texture_npot GL_OES_depth24 GL_OES_vertex_half_float GL_OES_EGL_image GL_OES_EGL_image_external GL_EXT_discard_framebuffer GL_OES_rgb8_rgba8 GL_OES_depth32 GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_APPLE_rgb_422 GL_EXT_debug_marker
+2019-04-11 16:28:42.814 T:1937408576 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+2019-04-11 16:28:42.814 T:1937408576  NOTICE: LoadJpeg: unable to load /usr/share/kodi/media/splash.jpg
+2019-04-11 16:28:43.570 T:1937408576 WARNING: CLangInfo: could not find language add-on 'resource.language.de_de', loading default..
+2019-04-11 16:28:43.736 T:1807721344  NOTICE: Running database version Addons27
+2019-04-11 16:28:43.743 T:1807721344  NOTICE: Running database version ViewModes6
+2019-04-11 16:28:43.755 T:1807721344  NOTICE: Running database version Textures13
+2019-04-11 16:28:43.772 T:1807721344  NOTICE: Running database version MyMusic72
+2019-04-11 16:28:43.798 T:1807721344  NOTICE: Running database version MyVideos116
+2019-04-11 16:28:43.806 T:1807721344  NOTICE: Running database version TV32
+2019-04-11 16:28:43.811 T:1807721344  NOTICE: Running database version Epg12
+2019-04-11 16:28:43.812 T:1937408576  NOTICE: start dvd mediatype detection
+2019-04-11 16:28:43.885 T:1937408576  NOTICE:   load skin from: /usr/share/kodi/addons/skin.estuary (version: 2.0.27)
+2019-04-11 16:28:44.727 T:1937408576 WARNING: JSONRPC: Could not parse type "Setting.Details.SettingList"
+2019-04-11 16:28:44.822 T:1937408576  NOTICE: Register - new keyboard device registered on application->keyboard: Keyboard (0000:0000)
+2019-04-11 16:28:44.824 T:1937408576  NOTICE: Register - new mouse device registered on application->mouse: Mouse (0000:0000)
+2019-04-11 16:28:44.835 T:1937408576  NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+2019-04-11 16:28:44.836 T:1937408576  NOTICE: Loaded playercorefactory configuration
+2019-04-11 16:28:44.836 T:1937408576  NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+2019-04-11 16:28:44.837 T:1937408576  NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+2019-04-11 16:28:44.891 T:1937408576  NOTICE: initialize done
+2019-04-11 16:28:44.891 T:1937408576  NOTICE: Running the application...
+2019-04-11 16:28:44.913 T:1937408576  NOTICE: starting zeroconf publishing
+2019-04-11 16:28:44.915 T:1937408576  NOTICE: CWebServer[8080]: Started
+2019-04-11 16:28:44.916 T:1698616192  NOTICE: ES: Starting UDP Event server on port 9777
+2019-04-11 16:28:44.917 T:1698616192  NOTICE: UDP: Listening on port 9777 (ipv6 : false)
+2019-04-11 16:28:45.129 T:1765757824  NOTICE: Register - new cec device registered on cec->RPI: CEC Adapter (2708:1001)
+2019-04-11 16:28:46.202 T:1732187008   ERROR: ## LibreELEC Addon ## oe::load_url(http://releases.libreelec.tv/releases.json) ## ERROR: (URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-04-11 16:28:46.210 T:1732187008   ERROR: Traceback (most recent call last):
+                                              File "/var/lib/jenkins/LE/build4/workspace/RPi2/LibreELEC.tv/build.LibreELEC-RPi2.arm-9.2.8/LibreELEC-settings-67f0b7ffbdee07283c751190bf6bda979ac28b9f/.install_pkg/usr/share/kodi/addons/service.libreelec.settings/oe.py", line 362, in load_url
+                                              File "/usr/lib/python2.7/urllib2.py", line 154, in urlopen
+                                              File "/usr/lib/python2.7/urllib2.py", line 429, in open
+                                              File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+                                              File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+                                              File "/usr/lib/python2.7/urllib2.py", line 1228, in http_open
+                                              File "/usr/lib/python2.7/urllib2.py", line 1198, in do_open
+                                            URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+2019-04-11 16:28:46.254 T:1650574208   ERROR: ## LibreELEC Addon ## oe::load_url(https://update.libreelec.tv/updates.php?i=4b21a6b0f8ef089baf8855a45caf6b34&d=LibreELEC&pa=RPi2.arm&v=9.2.8&f=raspberrypi%2C3-model-b-plus-1g) ## ERROR: (URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-04-11 16:28:46.255 T:1650574208   ERROR: Traceback (most recent call last):
+                                              File "/var/lib/jenkins/LE/build4/workspace/RPi2/LibreELEC.tv/build.LibreELEC-RPi2.arm-9.2.8/LibreELEC-settings-67f0b7ffbdee07283c751190bf6bda979ac28b9f/.install_pkg/usr/share/kodi/addons/service.libreelec.settings/oe.py", line 362, in load_url
+                                              File "/usr/lib/python2.7/urllib2.py", line 154, in urlopen
+                                              File "/usr/lib/python2.7/urllib2.py", line 429, in open
+                                              File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+                                              File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+                                              File "/usr/lib/python2.7/urllib2.py", line 1241, in https_open
+                                              File "/usr/lib/python2.7/urllib2.py", line 1198, in do_open
+                                            URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+2019-04-11 16:28:46.260 T:1650574208   ERROR: ## LibreELEC Addon ## updates::check_updates_v2 ## ERROR: (TypeError('expected string or buffer',))
+2019-04-11 16:28:46.262 T:1650574208   ERROR: Traceback (most recent call last):
+                                              File "/var/lib/jenkins/LE/build4/workspace/RPi2/LibreELEC.tv/build.LibreELEC-RPi2.arm-9.2.8/LibreELEC-settings-67f0b7ffbdee07283c751190bf6bda979ac28b9f/.install_pkg/usr/share/kodi/addons/service.libreelec.settings/resources/lib/modules/updates.py", line 556, in check_updates_v2
+                                              File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+                                              File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+                                            TypeError: expected string or buffer
+2022-01-17 20:04:01.243 T:1937408576   ERROR: Control 1000 in window 13001 has been asked to focus, but it can't
+2022-01-17 20:04:01.246 T:1937408576  NOTICE: LoadJpeg: unable to load /usr/share/kodi/addons/service.libreelec.settings/resources/skins/Default/media/bg.jpg
+2022-01-17 20:06:02.183 T:1937408576   ERROR: Control 1000 in window 13000 has been asked to focus, but it can't
+2022-01-17 20:06:02.185 T:1937408576  NOTICE: LoadJpeg: unable to load /usr/share/kodi/addons/service.libreelec.settings/resources/skins/Default/media/bg.jpg
+2022-01-17 20:06:16.906 T:1937408576 WARNING: CGUIWindowManager - HandleAction - ignoring action 7, because topmost modal dialog closing animation is running
